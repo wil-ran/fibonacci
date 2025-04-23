@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sequência de Fibonacci</title>
+    <title>Fibonacci Sequence</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
         body {
@@ -40,15 +40,15 @@
     <div class="container d-flex align-items-center justify-content-center min-vh-100">
         <div class="card p-4 w-100" style="max-width: 600px;">
             <div class="text-center mb-4">
-                <h1 class="text-primary">Sequência de Fibonacci</h1>
-                <p class="text-muted">Informe um número para gerar a sequência</p>
+                <h1 class="text-primary">Fibonacci Sequence</h1>
+                <p class="text-muted">Enter a number to generate the sequence</p>
             </div>
             <form action="" method="GET">
                 <div class="mb-3">
-                    <label for="number" class="form-label">Digite um número</label>
+                    <label for="number" class="form-label">Type a number</label>
                     <input type="number" name="number" class="form-control form-control-lg" id="number" placeholder="Ex: 10" required>
                 </div>
-                <button type="submit" class="btn btn-primary btn-lg">Calcular</button>
+                <button type="submit" class="btn btn-primary btn-lg">Calculate</button>
             </form>
 
             <?php
